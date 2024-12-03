@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 1 
+    <center>
+        <button onclick="bulboff()">off</button>
+        <img src="./off.jpg" alt="" id="image">
+        <button onclick="bulbon()">on</button>
+    </center>
+    <script>
+        function bulboff() {
+            let img = document.getElementById('image');
+            img.src = 'off.jpg';
+        }
+
+        function bulbon() {
+            let img = document.getElementById('image');
+            img.src = 'on.webp';
+        }
+    </script>
+</body>
+</html>
